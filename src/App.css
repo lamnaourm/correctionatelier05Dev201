@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  height: 100vh;
+  background-color: darkcyan;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.jeude {
+  background-color: white;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.jeude h1{
+  color: rgb(8, 8, 151);
+  font-size: 35px;
+}
+
+.jeude button {
+  width: 100%;
+  padding: 10px;
+  background-color: darkcyan;
+  border: none;
   color: white;
+  font-size: 15px;
+  border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.jeude img {
+  width: 150px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.jeude button:hover {
+  opacity: 0.7;
 }
